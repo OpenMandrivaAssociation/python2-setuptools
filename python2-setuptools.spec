@@ -23,8 +23,8 @@ ones that have dependencies on other packages.
 %package -n python2-pkg-resources
 Summary:	Runtime module to access python 2 resources
 Group:		Development/Python
-Requires:	python2-packaging
-Requires:	python2-appdirs
+#Requires:	python2-packaging
+#Requires:	python2-appdirs
 
 %description -n python2-pkg-resources
 Module used to find and manage Python 2.x package/version dependencies and access
