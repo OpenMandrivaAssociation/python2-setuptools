@@ -4,15 +4,15 @@
 Summary:	Python 2.0 Distutils Enhancements
 Name:		python2-%{module}
 Version:	46.4.0
-Release:	1
+Release:	2
 License:	Zope Public License (ZPL)
 Group:		Development/Python
 Url:		https://pypi.org/project/setuptools/
 Source0:	https://files.pythonhosted.org/packages/source/s/setuptools/setuptools-%{version}.zip
 BuildArch:	noarch
 BuildRequires:	python2
-BuildRequires:	python2-packaging
-BuildRequires:	python2-appdirs
+#BuildRequires:	python2-packaging
+#BuildRequires:	python2-appdirs
 Requires:	python2-pkg-resources
 
 %description
@@ -23,8 +23,8 @@ ones that have dependencies on other packages.
 %package -n python2-pkg-resources
 Summary:	Runtime module to access python 2 resources
 Group:		Development/Python
-Requires:	python2-packaging
-Requires:	python2-appdirs
+#Requires:	python2-packaging
+#Requires:	python2-appdirs
 
 %description -n python2-pkg-resources
 Module used to find and manage Python 2.x package/version dependencies and access
