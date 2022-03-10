@@ -11,8 +11,8 @@ Url:		https://pypi.org/project/setuptools/
 Source0:	https://files.pythonhosted.org/packages/source/s/setuptools/setuptools-%{version}.zip
 BuildArch:	noarch
 BuildRequires:	python2
-BuildRequires:	python2-packaging
-BuildRequires:	python2-appdirs
+#BuildRequires:	python2-packaging
+#BuildRequires:	python2-appdirs
 Requires:	python2-pkg-resources
 
 %description
