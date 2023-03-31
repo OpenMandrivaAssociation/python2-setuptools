@@ -4,7 +4,7 @@
 Summary:	Python 2.0 Distutils Enhancements
 Name:		python2-%{module}
 Version:	46.4.0
-Release:	2
+Release:	3
 License:	Zope Public License (ZPL)
 Group:		Development/Python
 Url:		https://pypi.org/project/setuptools/
